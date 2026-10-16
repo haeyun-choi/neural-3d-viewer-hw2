@@ -7,6 +7,7 @@ Open them using **Open PLY** or drag them into the viewer.
 | --- | --- |
 | `EaglePointCloud.ply` | Binary little-endian PLY with 796,825 colored points |
 | `fragment.ply` | Binary little-endian PLY with 196,133 colored points; described by Open3D as a Redwood Living Room fragment |
+| `external/monitor_mitylernal_cc0.ply` | External 4,096-point low-poly monitor sample for qualitative upload testing; see `external/README.md` |
 
 ## Source and license
 
@@ -19,3 +20,7 @@ Both files are unmodified copies from the official
 They are redistributed under the included [Open3D MIT License](LICENSE).
 
 Copyright (c) 2018-2023 www.open3d.org
+
+The external monitor sample is derived from Mitylernal's
+[Low-poly Monitor](https://opengameart.org/content/low-poly-monitor),
+released under CC0. It is not part of ModelNet10 or the reported evaluation.
