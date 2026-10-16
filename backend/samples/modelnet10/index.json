@@ -1,0 +1,367 @@
+{
+  "source": "ModelNet10, Princeton Vision & Robotics (Wu et al., '3D ShapeNets', CVPR 2015), https://modelnet.cs.princeton.edu/ \u2014 provided for academic research use.",
+  "samples_per_class": 3,
+  "sample_seed": 0,
+  "samples": [
+    {
+      "id": "bathtub_0132",
+      "class": "bathtub",
+      "label": "bathtub #0132",
+      "file": "bathtub_0132.ply",
+      "source_file": "bathtub/test/bathtub_0132.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "sofa",
+        "mini_pointnet": "bathtub"
+      }
+    },
+    {
+      "id": "bathtub_0138",
+      "class": "bathtub",
+      "label": "bathtub #0138",
+      "file": "bathtub_0138.ply",
+      "source_file": "bathtub/test/bathtub_0138.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "table",
+        "mini_pointnet": "table"
+      }
+    },
+    {
+      "id": "bathtub_0147",
+      "class": "bathtub",
+      "label": "bathtub #0147",
+      "file": "bathtub_0147.ply",
+      "source_file": "bathtub/test/bathtub_0147.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "bathtub",
+        "mini_pointnet": "bathtub"
+      }
+    },
+    {
+      "id": "bed_0517",
+      "class": "bed",
+      "label": "bed #0517",
+      "file": "bed_0517.ply",
+      "source_file": "bed/test/bed_0517.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "bed",
+        "mini_pointnet": "bed"
+      }
+    },
+    {
+      "id": "bed_0520",
+      "class": "bed",
+      "label": "bed #0520",
+      "file": "bed_0520.ply",
+      "source_file": "bed/test/bed_0520.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "bed",
+        "mini_pointnet": "bed"
+      }
+    },
+    {
+      "id": "bed_0523",
+      "class": "bed",
+      "label": "bed #0523",
+      "file": "bed_0523.ply",
+      "source_file": "bed/test/bed_0523.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "bed",
+        "mini_pointnet": "bed"
+      }
+    },
+    {
+      "id": "chair_0940",
+      "class": "chair",
+      "label": "chair #0940",
+      "file": "chair_0940.ply",
+      "source_file": "chair/test/chair_0940.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "chair",
+        "mini_pointnet": "chair"
+      }
+    },
+    {
+      "id": "chair_0953",
+      "class": "chair",
+      "label": "chair #0953",
+      "file": "chair_0953.ply",
+      "source_file": "chair/test/chair_0953.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "chair",
+        "mini_pointnet": "chair"
+      }
+    },
+    {
+      "id": "chair_0980",
+      "class": "chair",
+      "label": "chair #0980",
+      "file": "chair_0980.ply",
+      "source_file": "chair/test/chair_0980.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "chair",
+        "mini_pointnet": "chair"
+      }
+    },
+    {
+      "id": "desk_0247",
+      "class": "desk",
+      "label": "desk #0247",
+      "file": "desk_0247.ply",
+      "source_file": "desk/test/desk_0247.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "desk",
+        "mini_pointnet": "sofa"
+      }
+    },
+    {
+      "id": "desk_0254",
+      "class": "desk",
+      "label": "desk #0254",
+      "file": "desk_0254.ply",
+      "source_file": "desk/test/desk_0254.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "sofa",
+        "mini_pointnet": "desk"
+      }
+    },
+    {
+      "id": "desk_0262",
+      "class": "desk",
+      "label": "desk #0262",
+      "file": "desk_0262.ply",
+      "source_file": "desk/test/desk_0262.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "desk",
+        "mini_pointnet": "desk"
+      }
+    },
+    {
+      "id": "dresser_0224",
+      "class": "dresser",
+      "label": "dresser #0224",
+      "file": "dresser_0224.ply",
+      "source_file": "dresser/test/dresser_0224.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "night_stand",
+        "mini_pointnet": "dresser"
+      }
+    },
+    {
+      "id": "dresser_0258",
+      "class": "dresser",
+      "label": "dresser #0258",
+      "file": "dresser_0258.ply",
+      "source_file": "dresser/test/dresser_0258.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "sofa",
+        "mini_pointnet": "dresser"
+      }
+    },
+    {
+      "id": "dresser_0270",
+      "class": "dresser",
+      "label": "dresser #0270",
+      "file": "dresser_0270.ply",
+      "source_file": "dresser/test/dresser_0270.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "dresser",
+        "mini_pointnet": "dresser"
+      }
+    },
+    {
+      "id": "monitor_0469",
+      "class": "monitor",
+      "label": "monitor #0469",
+      "file": "monitor_0469.ply",
+      "source_file": "monitor/test/monitor_0469.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "monitor",
+        "mini_pointnet": "monitor"
+      }
+    },
+    {
+      "id": "monitor_0520",
+      "class": "monitor",
+      "label": "monitor #0520",
+      "file": "monitor_0520.ply",
+      "source_file": "monitor/test/monitor_0520.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "monitor",
+        "mini_pointnet": "monitor"
+      }
+    },
+    {
+      "id": "monitor_0550",
+      "class": "monitor",
+      "label": "monitor #0550",
+      "file": "monitor_0550.ply",
+      "source_file": "monitor/test/monitor_0550.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "monitor",
+        "mini_pointnet": "monitor"
+      }
+    },
+    {
+      "id": "night_stand_0208",
+      "class": "night_stand",
+      "label": "night stand #0208",
+      "file": "night_stand_0208.ply",
+      "source_file": "night_stand/test/night_stand_0208.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "dresser",
+        "mini_pointnet": "night_stand"
+      }
+    },
+    {
+      "id": "night_stand_0215",
+      "class": "night_stand",
+      "label": "night stand #0215",
+      "file": "night_stand_0215.ply",
+      "source_file": "night_stand/test/night_stand_0215.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "night_stand",
+        "mini_pointnet": "night_stand"
+      }
+    },
+    {
+      "id": "night_stand_0272",
+      "class": "night_stand",
+      "label": "night stand #0272",
+      "file": "night_stand_0272.ply",
+      "source_file": "night_stand/test/night_stand_0272.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "dresser",
+        "mini_pointnet": "dresser"
+      }
+    },
+    {
+      "id": "sofa_0688",
+      "class": "sofa",
+      "label": "sofa #0688",
+      "file": "sofa_0688.ply",
+      "source_file": "sofa/test/sofa_0688.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "sofa",
+        "mini_pointnet": "sofa"
+      }
+    },
+    {
+      "id": "sofa_0710",
+      "class": "sofa",
+      "label": "sofa #0710",
+      "file": "sofa_0710.ply",
+      "source_file": "sofa/test/sofa_0710.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "sofa",
+        "mini_pointnet": "sofa"
+      }
+    },
+    {
+      "id": "sofa_0734",
+      "class": "sofa",
+      "label": "sofa #0734",
+      "file": "sofa_0734.ply",
+      "source_file": "sofa/test/sofa_0734.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "sofa",
+        "mini_pointnet": "sofa"
+      }
+    },
+    {
+      "id": "table_0393",
+      "class": "table",
+      "label": "table #0393",
+      "file": "table_0393.ply",
+      "source_file": "table/test/table_0393.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "desk",
+        "mini_pointnet": "table"
+      }
+    },
+    {
+      "id": "table_0395",
+      "class": "table",
+      "label": "table #0395",
+      "file": "table_0395.ply",
+      "source_file": "table/test/table_0395.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "desk",
+        "mini_pointnet": "table"
+      }
+    },
+    {
+      "id": "table_0432",
+      "class": "table",
+      "label": "table #0432",
+      "file": "table_0432.ply",
+      "source_file": "table/test/table_0432.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "table",
+        "mini_pointnet": "table"
+      }
+    },
+    {
+      "id": "toilet_0397",
+      "class": "toilet",
+      "label": "toilet #0397",
+      "file": "toilet_0397.ply",
+      "source_file": "toilet/test/toilet_0397.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "toilet",
+        "mini_pointnet": "toilet"
+      }
+    },
+    {
+      "id": "toilet_0409",
+      "class": "toilet",
+      "label": "toilet #0409",
+      "file": "toilet_0409.ply",
+      "source_file": "toilet/test/toilet_0409.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "toilet",
+        "mini_pointnet": "toilet"
+      }
+    },
+    {
+      "id": "toilet_0410",
+      "class": "toilet",
+      "label": "toilet #0410",
+      "file": "toilet_0410.ply",
+      "source_file": "toilet/test/toilet_0410.off",
+      "split": "test",
+      "predictions": {
+        "shallow": "toilet",
+        "mini_pointnet": "toilet"
+      }
+    }
+  ]
+}

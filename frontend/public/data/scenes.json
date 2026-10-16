@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "documentation": "Hosted large Gaussian scenes. Add prebuilt Spark .rad level-of-detail assets here; see docs/hosted-scenes.md. This file is metadata only - no splat data belongs in this repository. Each entry needs id, name and url (http/https, ending in .rad); description, attribution, splatCount, sizeBytes and view are optional.",
+  "scenes": []
+}

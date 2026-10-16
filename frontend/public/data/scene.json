@@ -1,0 +1,14 @@
+{
+  "id": "spectrum-garden",
+  "name": "Spectrum Garden",
+  "description": "A warm torus, a cool sphere, and a rippled floor. An entirely synthetic study in color, shape, and spatial annotation.",
+  "format": "PLY (ASCII)",
+  "point_count": 6453,
+  "asset": "data/spectrum-garden.ply",
+  "size_bytes": 253573,
+  "sha256": "a81a5f5f80bcc3e07ff6eb9c2b7b9ea10a69fd134c11069568e611420c0b2347",
+  "generator": "scripts/generate_sample.py",
+  "seed": null,
+  "sampling": "Fixed analytic grids; no random sampling or external source data.",
+  "coordinates": "Right-handed, Y-up; arbitrary scene units."
+}

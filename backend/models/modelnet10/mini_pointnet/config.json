@@ -1,0 +1,14 @@
+{
+  "model": "mini_pointnet",
+  "epochs": 60,
+  "learning_rate": 0.001,
+  "batch_size": 32,
+  "hidden_dim": 64,
+  "activation": "relu",
+  "dropout": 0.3,
+  "weight_decay": 0.0001,
+  "scheduler": "cosine",
+  "augment": true,
+  "seed": 0,
+  "device": "auto"
+}

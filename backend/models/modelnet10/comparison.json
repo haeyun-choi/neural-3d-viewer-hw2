@@ -1,0 +1,42 @@
+{
+  "baseline": {
+    "model": "shallow",
+    "parameters": 906,
+    "best_epoch": 59,
+    "best_val_accuracy": 0.9060150375939849,
+    "test_accuracy": 0.8381057268722467,
+    "test_error": 0.16189427312775329
+  },
+  "final": {
+    "model": "mini_pointnet",
+    "parameters": 76362,
+    "best_epoch": 45,
+    "best_val_accuracy": 0.9774436090225563,
+    "test_accuracy": 0.9361233480176211,
+    "test_error": 0.06387665198237891
+  },
+  "test_error_reduction": 0.09801762114537438,
+  "relative_error_reduction": 0.605442176870748,
+  "final_beats_baseline": true,
+  "test_size": 908,
+  "seeds": {
+    "shallow": {
+      "test_accuracy": [
+        0.8381057268722467,
+        0.8403083700440529,
+        0.8370044052863436
+      ],
+      "mean": 0.8384728340675477,
+      "std": 0.0013735893490359854
+    },
+    "mini_pointnet": {
+      "test_accuracy": [
+        0.9361233480176211,
+        0.9229074889867841,
+        0.9240088105726872
+      ],
+      "mean": 0.9276798825256974,
+      "std": 0.005987337162371528
+    }
+  }
+}

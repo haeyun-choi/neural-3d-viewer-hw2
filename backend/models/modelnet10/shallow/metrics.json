@@ -1,0 +1,226 @@
+{
+  "model": "shallow",
+  "parameters": 906,
+  "device": "cpu",
+  "best_epoch": 59,
+  "best_val_accuracy": 0.9060150375939849,
+  "best_val_loss": 0.3061040551740125,
+  "test_accuracy": 0.8381057268722467,
+  "test_error": 0.16189427312775329,
+  "test_loss": 0.4352575461769944,
+  "confusion_matrix": [
+    [
+      24,
+      9,
+      0,
+      0,
+      0,
+      0,
+      0,
+      13,
+      2,
+      2
+    ],
+    [
+      2,
+      91,
+      1,
+      0,
+      1,
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      98,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      46,
+      6,
+      0,
+      3,
+      22,
+      8,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      74,
+      0,
+      9,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0,
+      95,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      3,
+      13,
+      0,
+      65,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      95,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      2,
+      0,
+      78,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      95
+    ]
+  ],
+  "per_class": [
+    {
+      "class": "bathtub",
+      "support": 50,
+      "correct": 24,
+      "recall": 0.48,
+      "precision": 0.9230769230769231
+    },
+    {
+      "class": "bed",
+      "support": 100,
+      "correct": 91,
+      "recall": 0.91,
+      "precision": 0.883495145631068
+    },
+    {
+      "class": "chair",
+      "support": 100,
+      "correct": 98,
+      "recall": 0.98,
+      "precision": 0.9514563106796117
+    },
+    {
+      "class": "desk",
+      "support": 86,
+      "correct": 46,
+      "recall": 0.5348837209302325,
+      "precision": 0.6388888888888888
+    },
+    {
+      "class": "dresser",
+      "support": 86,
+      "correct": 74,
+      "recall": 0.8604651162790697,
+      "precision": 0.7789473684210526
+    },
+    {
+      "class": "monitor",
+      "support": 100,
+      "correct": 95,
+      "recall": 0.95,
+      "precision": 1.0
+    },
+    {
+      "class": "night_stand",
+      "support": 86,
+      "correct": 65,
+      "recall": 0.7558139534883721,
+      "precision": 0.7831325301204819
+    },
+    {
+      "class": "sofa",
+      "support": 100,
+      "correct": 95,
+      "recall": 0.95,
+      "precision": 0.6934306569343066
+    },
+    {
+      "class": "table",
+      "support": 100,
+      "correct": 78,
+      "recall": 0.78,
+      "precision": 0.8297872340425532
+    },
+    {
+      "class": "toilet",
+      "support": 100,
+      "correct": 95,
+      "recall": 0.95,
+      "precision": 0.95
+    }
+  ],
+  "classes": [
+    "bathtub",
+    "bed",
+    "chair",
+    "desk",
+    "dresser",
+    "monitor",
+    "night_stand",
+    "sofa",
+    "table",
+    "toilet"
+  ],
+  "split_sizes": {
+    "train": 3193,
+    "val": 798,
+    "test": 908
+  },
+  "train_seconds": 43.53416469413787,
+  "torch": "2.14.1+cu130",
+  "git_sha": "1ba66f2",
+  "finished_at": "2026-10-12T05:04:18+00:00"
+}

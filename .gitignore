@@ -1,0 +1,37 @@
+node_modules
+dist/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+backend/data/
+test-results/
+playwright-report/
+artifacts/
+*.log
+.DS_Store
+.idea/
+.vscode/
+# Prebuilt Spark level-of-detail assets and large splat payloads are hosted
+# statically, never committed. See docs/hosted-scenes.md.
+*.rad
+*.radc
+frontend/public/data/scenes.local.json
+# Training-camera paths belong to a reconstruction, not to this repository.
+# Test fixtures are generated in frontend/tests/fixtures/cameras.ts instead.
+cameras.json
+*-cameras.json

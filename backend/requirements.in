@@ -1,0 +1,5 @@
+fastapi>=0.115,<1
+uvicorn>=0.34,<1
+SQLAlchemy>=2.0,<2.1
+numpy>=1.26,<3
+torch>=2.4,<3
